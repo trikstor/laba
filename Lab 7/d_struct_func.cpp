@@ -89,13 +89,13 @@ point* delete_all(point *p)
 }
 
 // Удалить элементы заданное кол-во элементов списка до заданного значения
-void delete_elem(point *p, point *root, int del_num, int quantity){
+point* delete_elem(point *p, point *root, int del_num, int quantity){
 	int security = 0;												 // Индикатор заданного значения del_num
 	int i = 0;														 // Счетчик удаленных элементов
 
 	do {
 		if (security == 1 && i < quantity){							 // Если значение del_num найдено и еще не удалено заданное кол-во элементов
-			delete_point(p, root);
+			root = delete_point(p, root);
 			i++;
 		}
 
@@ -106,6 +106,7 @@ void delete_elem(point *p, point *root, int del_num, int quantity){
 		p = p->pre;
 
 	} while (p != NULL);
+	return root;
 }
 
 //Записать список в файл
