@@ -30,7 +30,7 @@ point* delete_all(point*);
 /*
 Удаление заданного количества элементов до заданного
 */
-void delete_elem(point*, point*, int, int);
+point* delete_elem(point*, point*, int, int);
 /*
 Запись списка в файл
 */
