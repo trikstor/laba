@@ -1,0 +1,19 @@
+﻿Построение начато 10.03.2017 15:39:45.
+     1>Проект "C:\Users\stud\Desktop\OS\Radix_sort\Radix_sort\Radix_sort.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "Debug\Radix_sort.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt sorting_func.cpp
+         sorting_func.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\stud\Desktop\OS\Radix_sort\Debug\Radix_sort.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\stud\Desktop\OS\Radix_sort\Debug\Radix_sort.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\stud\Desktop\OS\Radix_sort\Debug\Radix_sort.lib" /MACHINE:X86 Debug\radix_sort.obj
+         Debug\sorting_func.obj
+         Radix_sort.vcxproj -> C:\Users\stud\Desktop\OS\Radix_sort\Debug\Radix_sort.exe
+       FinalizeBuildStatus:
+         Файл "Debug\Radix_sort.unsuccessfulbuild" удаляется.
+         Обращение к "Debug\Radix_sort.lastbuildstate".
+     1>Построение проекта "C:\Users\stud\Desktop\OS\Radix_sort\Radix_sort\Radix_sort.vcxproj" завершено (целевые объекты Build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:00.82
