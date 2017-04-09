@@ -70,7 +70,7 @@ int main()
     char *alphabet = new char[255];
     
     
-    cin >> mass;
+    gets(mass);
     cin >> templa;
     
     int templa_l = strlen(templa);
