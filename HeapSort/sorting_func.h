@@ -7,5 +7,5 @@ void print_mass(int*, int);
 /* Поменять местами i-ый элемент массива, и следующий за ним. */
 void change(int*, int, int);
 
-
+/* Пирамидальная сортировка массива. */
 void heapsort(int*, int);
