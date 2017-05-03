@@ -1,0 +1,8 @@
+﻿Сборка начата 03.05.2017 21:31:14.
+     1>Проект "F:\Stack_Queue\Stack_Queue\Stack_Queue.vcxproj" в узле 2 (целевые объекты Rebuild).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.Cpp.Platform.targets(64,5): error MSB8020: The build tools for v141 (Platform Toolset = 'v141') cannot be found. To build using the v141 build tools, please install v141 build tools.  Alternatively, you may upgrade to the current Visual Studio tools by selecting the Project menu or right-click the solution, and then selecting "Upgrade Solution...".
+     1>Сборка проекта "F:\Stack_Queue\Stack_Queue\Stack_Queue.vcxproj" завершена (целевые объекты Rebuild) с ошибкой.
+
+Ошибка сборки.
+
+Затраченное время: 00:00:00.81
